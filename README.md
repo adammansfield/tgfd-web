@@ -1,4 +1,4 @@
-# [TGFD](https://tgfd-project.github.io/TGFD/)
+# [TGFD](https://adammansfield.github.io/tgfd-web)
 
 [comment]: # (WORKAROUND: Use HTML to define headers so that Github and Github Pages will have the same header IDs [2021-03-21])
 [comment]: # (E.g. For "# 1. Overview", Github generates id="1-overview" and Github Pages generates id="overview")
@@ -118,21 +118,21 @@ We used the following subset of the vertices, edges, and attributes in the DBped
 Below are samples of the core DBpedia TGFDs:  
 
 **DBpedia TGFD 1**  
-![DBpedia TGFD 1 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/dpedia/1.png "DBpedia TGFD 1 Pattern")  
+![DBpedia TGFD 1 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/dpedia/1.png "DBpedia TGFD 1 Pattern")  
 Δ: (0 days,  1000 days)  
 X: album.name  
 Y: musicalartist.name  
 File: `/VF2SubIso/src/test/java/samplePatterns/dbpedia/pattern0100.txt`  
 
 **DBpedia TGFD 2**  
-![DBpedia TGFD 2 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/dpedia/2.png "DBpedia TGFD 2 Pattern")  
+![DBpedia TGFD 2 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/dpedia/2.png "DBpedia TGFD 2 Pattern")  
 Δ: (0 days, 30 days)  
 X: basketballplayer.name, basketballteam.name  
 Y: basketballleague.name  
 File: `/VF2SubIso/src/test/java/samplePatterns/dbpedia/pattern0400.txt`  
 
 **DBpedia TGFD 3**  
-![DBpedia TGFD 3 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/dpedia/3.png "DBpedia TGFD 3 Pattern")  
+![DBpedia TGFD 3 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/dpedia/3.png "DBpedia TGFD 3 Pattern")  
 Δ: (0 days, 30 days)  
 X: book.name, book.isbn, country.name  
 Y: publisher.name  
@@ -188,21 +188,21 @@ Vertices of types {actor, actress, country, director, distributor, genre} have a
 Below are samples of the core IMDB TGFDs:  
 
 **IMDB TGFD 1**  
-![IMDB TGFD 1 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/imdb/1.png "IMDB TGFD 1 Pattern")  
+![IMDB TGFD 1 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/imdb/1.png "IMDB TGFD 1 Pattern")  
 Δ: (0 days, 1000 days)  
 X: actor.name  
 Y: movie.name  
 File: `/VF2SubIso/src/test/java/samplePatterns/imdb/pattern0100.txt`  
 
 **IMDB TGFD 2**  
-![IMDB TGFD 2 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/imdb/2.png "IMDB TGFD 2 Pattern")  
+![IMDB TGFD 2 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/imdb/2.png "IMDB TGFD 2 Pattern")  
 Δ: (0 days, 365 days)  
 X: genre.name  
 Y: movie.name  
 File: `/VF2SubIso/src/test/java/samplePatterns/imdb/pattern0600.txt`  
 
 **IMDB TGFD 3**  
-![IMDB TGFD 3 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/imdb/3.png "IMDB TGFD 3 Pattern")  
+![IMDB TGFD 3 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/imdb/3.png "IMDB TGFD 3 Pattern")  
 Δ: (0 days, 365 days)  
 X: language.name  
 Y: language.name  
@@ -275,21 +275,21 @@ The core set of TGFDs were extended in the same manner as described in [2.1.1 DB
 Below are samples of the core Synthetic TGFDs:  
 
 **Synthetic TGFD 1**  
-![Synthetic TGFD 1 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/synthetic/1.png "Synthetic TGFD 1 Pattern")  
+![Synthetic TGFD 1 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/synthetic/1.png "Synthetic TGFD 1 Pattern")  
 Δ: (0 days, 365 days)  
 X: person.name  
 Y: company.name  
 File: `/VF2SubIso/src/test/java/samplePatterns/synthetic/pattern0200.txt`  
 
 **Synthetic TGFD 2**  
-![Synthetic TGFD 2 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/synthetic/2.png "Synthetic TGFD 2 Pattern")  
+![Synthetic TGFD 2 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/synthetic/2.png "Synthetic TGFD 2 Pattern")  
 Δ: (0 days, 365 days)  
 X: person.name  
 Y: university.name  
 File: `/VF2SubIso/src/test/java/samplePatterns/synthetic/pattern1000.txt`  
 
 **Synthetic TGFD 3**  
-![Synthetic TGFD 3 Pattern](https://raw.githubusercontent.com/TGFD-Project/TGFD/main/site/images/patterns/synthetic/3.png "Synthetic TGFD 3 Pattern")  
+![Synthetic TGFD 3 Pattern](https://raw.githubusercontent.com/adammansfield/tgfd-web/main/site/images/patterns/synthetic/3.png "Synthetic TGFD 3 Pattern")  
 Δ: (0 days, 365 days)  
 X: person.name  
 Y: tag.name  
